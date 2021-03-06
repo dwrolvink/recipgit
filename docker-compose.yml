@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  pymander-dev:
+    container_name: recipgit
+    image: dwrolvink/recipgit:latest
+    ports:
+      - target: 5000
+        published: 8080
+        mode: host #"8080:5000/tcp"
+    environment:
+      PYTHONDONTWRITEBYTECODE: 1
+    volumes:
+      - './app:/app/'     
+    stop_signal: SIGINT # gracefully stop flask

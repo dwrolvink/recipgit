@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="/static/css/recipe.css" />
+    {% if g.print %}
+        <link rel="stylesheet" href="/static/css/recipe_print.css" />
+    {% endif %}
+{%endblock %}
+
+{% block extra_js %}
+    
+{%endblock %}
+
+{% block content %}
+
+{{ g.html|safe }}
+
+{% endblock %}
