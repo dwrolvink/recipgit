@@ -9,7 +9,7 @@ General instructions can be found here: [Official installation docs](https://doc
 For linux, they are (seemingly too) complex, though. 
 Below is an example that works on Arch/Manjaro:
 
-```
+``` bash
 # Install docker and docker-compose
 sudo pacman -S docker docker-compose
 
@@ -28,7 +28,7 @@ sudo systemctl start reboot.target
 # 2. Get the code
 ## With git
 If you have git installed, run:
-```
+``` bash
 git clone git@github.com:dwrolvink/recipgit.git
 cd recipgit
 ```
@@ -56,12 +56,12 @@ If you don't have git installed, follow these steps:
 # 3. Build image
 > At a later time we will prebuild the container image, but for now you need to build it yourself.
 Run the following in the same terminal as before to build the image:
-```
+``` bash
 docker build -t dwrolvink/recipgit .
 ```
 
 # 4. Run container
-```
+``` bash
 docker-compose up --detach
 ```
 
