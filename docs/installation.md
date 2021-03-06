@@ -22,6 +22,7 @@ sudo systemctl enable docker
 sudo usermod -aG docker $USER
 
 # Reboot is the simplest way to have your new membership be loaded
+# WATCH OUT: this will reboot the machine you're on IMMEDIATELY
 sudo systemctl start reboot.target
 ```
 
