@@ -1,17 +1,4 @@
----
-title: Example Cake Recipe
-taxonomy:
-    dish_type: cake
-    ingredients:
-      - milk
-      - eggs
-      - flour
-      - sugar
-    tags:
-      - traditional
----
-
-# Very tasty Cake like grandma made it
+# Example Cake Recipe
 ![cake](img/cake.png)
 
 Some things are just best left unaltered. This recipe makes me think of my grandma a lot.

@@ -1,0 +1,12 @@
+title: Example Cake Recipe
+tags:
+  dish_type: cake
+  ingredients:
+    - milk
+    - eggs
+    - flour
+    - sugar
+  ingredients_optional:
+    - vanilla
+  extra_tags:
+    - traditional

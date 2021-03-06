@@ -12,4 +12,5 @@ services:
       PYTHONDONTWRITEBYTECODE: 1
     volumes:
       - './app:/app/'     
+      - './book:/book/'  
     stop_signal: SIGINT # gracefully stop flask

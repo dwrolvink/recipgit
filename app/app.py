@@ -35,7 +35,7 @@ def render_recipe(recipe_id):
         g.print = True
 
     # convert markdown
-    with open(f'book/recipes/{recipe_id}/readme.md', 'r') as f:
+    with open(f'/book/recipes/{recipe_id}/readme.md', 'r') as f:
         text = f.read()
 
         # convert md to html
@@ -54,7 +54,7 @@ def render_recipe(recipe_id):
 
 @app.route('/recipe/<recipe_id>/img/<path:filename>')
 def renderRecipeImage(recipe_id, filename):
-    return send_from_directory(app.root_path + '/book/recipes/' + recipe_id + '/img', filename, conditional=True)    
+    return send_from_directory('/book/recipes/' + recipe_id + '/img', filename, conditional=True)    
 
 @app.route('/cat')
 def render_page2():
