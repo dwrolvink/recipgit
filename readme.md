@@ -20,5 +20,5 @@ Everyone can host their own instance of the webapp, even locally (if you don't w
 
 ## Contributing
 - If you want to contribute, read the [Architecture](docs/ARCHITECTURE.md) and the [Technical Design](docs/TECHNICAL_DESIGN.md).
-- Then, read [My first recipe](docs/my_fist_recipe.md).
+- Then, read [My first recipe](docs/my_first_recipe.md).
 
