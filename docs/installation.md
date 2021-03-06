@@ -56,6 +56,7 @@ If you don't have git installed, follow these steps:
 
 # 3. Build image
 > At a later time we will prebuild the container image, but for now you need to build it yourself.
+
 Run the following in the same terminal as before to build the image:
 ``` bash
 docker build -t dwrolvink/recipgit .
