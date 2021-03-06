@@ -1,5 +1,5 @@
 # Recipgit
-Recipgit is an intended standard for an opensource recipe book, with webapp included. [Demo](https://recipes.dwrolvink.com).
+Recipgit is an intended standard for an opensource recipe book, with webapp included. [Demo](https://recipes.devfruits.com).
 
 See [Architecture](docs/ARCHITECTURE.md) to learn more about the goals of this project.
 
@@ -10,7 +10,7 @@ See [Architecture](docs/ARCHITECTURE.md) to learn more about the goals of this p
 - ...but just browsing the [/books/](/books) folder should also allow you to read the recipes.
 
 ## The Web App
-> An example of the webapp is hosted here: [https://recipes.dwrolvink.com](https://recipes.dwrolvink.com).
+> An example of the webapp is hosted here: [https://recipes.devfruits.com](https://recipes.devfruits.com).
 
 As said above, the markdown is readable by itself, but it lacks in features like comprehensive searching and things like print-friendly rendering. This is what the webapp is for.
 
