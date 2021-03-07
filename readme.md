@@ -7,7 +7,7 @@ See [Architecture](docs/ARCHITECTURE.md) to learn more about the goals of this p
 ## Recipes
 - The main star of the show is the `/book/` folder, this houses all the recipes using markdown.
 - A standard for how the recipes are created should allow anyone to make their own webapp with the book folder as a source for the recipes
-- ...but just browsing the [/books/](/books) folder should also allow you to read the recipes.
+- ...but just browsing the [/book/recipes](/book/recipes) folder should also allow you to read the recipes.
 
 ## The Web App
 > An example of the webapp is hosted here: [https://recipes.devfruits.com](https://recipes.devfruits.com).
